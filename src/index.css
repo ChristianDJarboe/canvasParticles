@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#fancyBox{
+  position: fixed;
+  z-index: -1;
+}
+#optionsContainer{
+  width:400px;
+  height:100vh;
+  background-color: rgb(29, 29, 29);
+  padding-left:5px;
+  color:white;
+}
+.optionCategoryHeader{
+  margin:0px;
+  font-size:24px;
+}
+.optionCategory{
+  border-left:2px solid white;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+.singleOption{
+  display:flex;
+}
+.singleOptionHeader{
+  width:80px;
+  margin:8px;
+}
+.singleOptionHeader{
+  width:80px;
+}
+input[type="range"]{
+  width:250px;
+}
+
+#exportContainer{
+  display:flex;
+  position: fixed;
+  top:50px;
+  width: 100%;
+  background-color:rgba(34, 34, 34, 0.582);
+  z-index:1;
+  align-items: center;
+  flex-direction: column;
+}
+#exportContainer>textarea{
+  margin:0 auto;
+  width:50%;
+  color:green;
+  background-color:rgb(29, 29, 29);
+  resize: none;
+}
+#exportContainer>div{
+  background-color:rgb(29, 29, 29);
+  width:50%;
+  padding:5px;
+  text-align: center;
+  color:white;
+}
+#exportContainer>button{
+  background-color:rgb(29, 29, 29);
+  width:50%;
+  font-size:20px;
+  padding:5px;
+  margin:5px;
+  border-style: none;
+  text-align: center;
+  color:white;
+}
+#optionsContainerHeader>h1{
+  margin:0px;
+
+}
+#optionsContainerHeader{
+  display:flex;
+  justify-content: space-between;
+  padding-bottom:5px;
+  margin-bottom:5px;
+  border-bottom:5px solid rgb(10, 53, 109);
+}
